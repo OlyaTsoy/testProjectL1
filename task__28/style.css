@@ -1,0 +1,22 @@
+li {
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#nameFilms {
+  margin-left: 10px;
+  font-size: 20px;
+}

@@ -1,0 +1,20 @@
+th, li {
+  cursor: pointer;
+}
+th:hover, li:hover {
+  background-color: rgb(142, 134, 134);
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+li {
+  border: 1px solid black;
+  text-align: center;
+  user-select: none;
+  width: 20px;
+  height: 20px;
+}

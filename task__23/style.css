@@ -1,0 +1,19 @@
+#inputPassword {
+	position: relative;
+}
+.password__icon {
+	position: absolute;
+	left: 279px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+  background-image: url("./assets/show.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hidden {
+  background-image: url("./assets/hidden.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Task 29</title>
+  </head>
+  <body>
+    <div>
+      <h1>Взаимодействие с формами</h1>
+      <form class="form">
+        <div class="form__wrap">
+          <label>Ваше имя:</label>
+          <input name="name" type="text" />
+        </div>
+        <div class="form__wrap">
+          <label>Дата рождения:</label>
+          <input name="date" type="date" />
+        </div>
+        <div class="form__wrap">
+          <label>Любимый фильм:</label>
+          <input name="movie" type="text" />
+        </div>
+        <div class="form__wrap">
+          <label>Выберите любимый цвет:</label>
+          <input name="color" type="color" />
+        </div>
+        <div class="form__wrap form__wrap--checkbox">
+          <label>Что Вы больше любите:</label>
+          <label>Кофе<input name="coffee" type="checkbox" /></label>
+          <label>Чай<input name="tea" type="checkbox" /></label>
+          <label>Другое<input name="other" type="checkbox" /></label>
+        </div>
+        <input type="submit" class="form__btn" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
